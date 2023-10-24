@@ -40,7 +40,7 @@ h3 {
     color: gray;
     padding:4%;
     padding-top: 1%;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
 }
 
 h4 {
@@ -116,9 +116,9 @@ h5 {
 }
 
 .botao-ferramentas{    
-    background-color: rgb(37, 39, 44);
-    height: 15%;
-    min-height: 7vmax;
+    background-color: rgb(41, 44, 54);
+    height: 25%;
+    min-height: 7.6vmax;
     width: 18.3%;
     min-width: 7vmax;
     text-align: center;
@@ -132,7 +132,7 @@ h5 {
 }
 
 h6 {
-    color: rgb(208, 214, 242);
+    color: rgb(211, 214, 230);
     font-size: 70%;
     margin: 15%;       
 }
@@ -145,7 +145,7 @@ footer {
 }
 
 footer h6 {
-    color: rgb(69, 72, 87);
+    color: rgb(91, 95, 113);
     font-size: 70%;
 
 }
@@ -155,5 +155,6 @@ footer h6 {
     flex-direction:row;
     justify-content: space-between;
     padding:4%;
+    padding-bottom: 2%;
 
 }
