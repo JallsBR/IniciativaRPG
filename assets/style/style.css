@@ -13,6 +13,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
+    background-color: rgb(234, 234, 234);
 }
 
 #topo-log {
@@ -53,11 +54,11 @@ h4 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
 .botao_menu {
 
-    background-color: rgb(202, 203, 206);
     height: 45%;
     min-height: 20vmax;
     width: 45%;
@@ -65,12 +66,44 @@ h4 {
     text-align: center;
     border-radius: 5%;
     margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ 
     
+}
+
+#jogador {
+    background-color: rgb(86, 150, 229);
+
+    
+
+}
+
+#mestre {
+    background-color: rgb(228, 111, 111);
+
+}
+
+#aventuras {
+    background-color: rgb(100, 217, 92);
+
+}
+
+#grupos {
+    background-color: rgb(203, 166, 98);
+
 }
 
 h5 {
     padding: 5%;
     font-size: 120%;
+    color: rgb(52, 48, 48);
+
+
+
+    
     
 }
 
@@ -79,10 +112,11 @@ h5 {
     flex-direction: row;
     flex-wrap: wrap;
     margin: 4%;
+    margin-bottom: 0;
 }
 
 .botao-ferramentas{    
-    background-color: rgb(202, 203, 206);
+    background-color: rgb(37, 39, 44);
     height: 15%;
     min-height: 7vmax;
     width: 18.3%;
@@ -90,11 +124,36 @@ h5 {
     text-align: center;
     border-radius: 5%;
     margin: 0.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 }
 
 h6 {
+    color: rgb(208, 214, 242);
     font-size: 70%;
     margin: 15%;       
+}
+
+footer {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer h6 {
+    color: rgb(69, 72, 87);
+    font-size: 70%;
+
+}
+
+#criar {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding:4%;
+
 }
