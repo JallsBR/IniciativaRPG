@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(42, 42, 44);
+    
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#topo-log {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding:4%;
+
+}
+
+h2 {
+    font-size: 80%;
+    color: gray;
+}
+
+h1{
+    padding:4%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+h3 {
+    font-size: 80%;
+    color: gray;
+    padding:4%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+h4 {
+    font-size: 150%;
+    padding:4%;
+    padding-bottom: 2%;
+}
+
+#navegador {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.botao_menu {
+
+    background-color: rgb(202, 203, 206);
+    height: 45%;
+    min-height: 20vmax;
+    width: 45%;
+    min-width: 15vmax;
+    text-align: center;
+    border-radius: 5%;
+    margin: 2%;
+    
+}
+
+h5 {
+    padding: 5%;
+    font-size: 120%;
+    
+}
+
+.ferramentas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 4%;
+}
+
+.botao-ferramentas{    
+    background-color: rgb(202, 203, 206);
+    height: 15%;
+    min-height: 7vmax;
+    width: 18.3%;
+    min-width: 7vmax;
+    text-align: center;
+    border-radius: 5%;
+    margin: 0.8%;
+
+
+}
+
+h6 {
+    font-size: 70%;
+    margin: 15%;       
+}
